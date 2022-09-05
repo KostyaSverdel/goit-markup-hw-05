@@ -157,12 +157,13 @@ header {
   color: var(--contacts-link-color);
   text-decoration: none;
   display: flex;
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navig-adres:hover,
 .navig-adres:focus {
   fill: var(--hovers-and-logo-color);
   color: var(--hovers-and-logo-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .conta-ic {
   margin-right: 10px;
@@ -173,7 +174,6 @@ header {
 .conta-ic:hover,
 .conta-ic:focus {
   color: var(--hovers-and-logo-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list {
   display: flex;
@@ -193,6 +193,8 @@ header {
   align-items: center;
   justify-content: center;
   fill: var(--social-icon-color);
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tx-footer {
   margin-bottom: 20px;
@@ -215,6 +217,8 @@ header {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer-link:hover,
 .social-footer-link:focus {
@@ -227,7 +231,6 @@ header {
 .social-footer-link:hover,
 .social-footer-link:focus {
   color: var(--hovers-and-logo-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer {
   display: flex;
@@ -245,12 +248,10 @@ header {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--hovers-and-logo-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--bacground-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-conteiner {
   display: flex;
@@ -310,6 +311,7 @@ header {
   background: var(--hovers-and-logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   /* identical to box height, or 188% */
 }
@@ -362,6 +364,8 @@ header {
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
   fill: var(--social-icon-color);
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .us-clients {
   display: flex;
@@ -371,7 +375,6 @@ header {
 .box-client:focus {
   border-color: var(--hovers-and-logo-color);
   fill: var(--hovers-and-logo-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-work {
@@ -532,6 +535,8 @@ ul {
   margin-right: 8px;
   padding: 6px 22px;
   border: none;
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -539,7 +544,6 @@ ul {
   color: var(--address-bord-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay {
   position: absolute;
@@ -576,7 +580,6 @@ ul {
 .portfolink:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-portfolio-page {
   padding-top: 94px;
