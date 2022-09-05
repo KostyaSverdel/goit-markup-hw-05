@@ -157,7 +157,7 @@ header {
   color: var(--contacts-link-color);
   text-decoration: none;
   display: flex;
-  transition: transform 250ms linear;
+  transition: 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navig-adres:hover,
@@ -193,7 +193,7 @@ header {
   align-items: center;
   justify-content: center;
   fill: var(--social-icon-color);
-  transition: transform 250ms linear;
+  transition: 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tx-footer {
@@ -217,7 +217,7 @@ header {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: transform 250ms linear;
+  transition: 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer-link:hover,
@@ -364,7 +364,7 @@ header {
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
   fill: var(--social-icon-color);
-  transition: transform 250ms linear;
+  transition: 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .us-clients {
@@ -535,7 +535,7 @@ ul {
   margin-right: 8px;
   padding: 6px 22px;
   border: none;
-  transition: transform 250ms linear;
+  transition: 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfolio:hover,
