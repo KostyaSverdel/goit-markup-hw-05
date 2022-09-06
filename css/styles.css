@@ -124,6 +124,7 @@ header {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  fill: currentColor;
 }
 .navigation-col {
   color: var(--titel-link-color);
@@ -157,9 +158,8 @@ header {
   color: var(--contacts-link-color);
   text-decoration: none;
   display: flex;
-  fill: currentColor;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navig-adres:hover,
 .navig-adres:focus {
